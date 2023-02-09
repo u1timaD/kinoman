@@ -8,6 +8,13 @@
     "build": "webpack --mode production",
     "start": "webpack serve --mode development"
   },
+  "browserslist": [
+    "last 2 verions",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all",
+    "not < 0.25%"
+  ],
   "devDependencies": {
     "@babel/core": "7.17.9",
     "@babel/preset-env": "7.16.11",
